@@ -1,5 +1,7 @@
 class Calcular {
 
+    public static String name;
+
     public static double calculos(double num1, double num2, char math) {
         double result;
         switch(math) {

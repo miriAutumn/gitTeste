@@ -13,7 +13,7 @@ public class Main {
         double num2 = scanner.nextDouble();
         System.out.print("E como gostaria de calcular? (A/S/M/D): ");
         char math = scanner.next().charAt(0);
-
+        
         double result = Calcular.calculos(num1, num2, math);
         if(result == -1) {
             System.out.println("ERROR");
